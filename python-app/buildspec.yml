@@ -24,3 +24,8 @@ phases:
   post_build:
     commands:
       - echo "Build completed successfully!"
+      - cd ../
+artifacts:
+  files:
+    - '**/*'
+  base-directory: ../python-app
